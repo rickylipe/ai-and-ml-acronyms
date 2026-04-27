@@ -238,3 +238,38 @@ Browse by category below, or use your browser's search (`Ctrl+F` / `Cmd+F`) to j
 | SARSA | State-Action-Reward-State-Action | An on-policy TD reinforcement learning algorithm that updates Q-values using the action actually taken by the agent's policy rather than the greedy optimal action. |
 | TD | Temporal Difference | A family of RL algorithms learning value functions by bootstrapping from subsequent estimates, combining the strengths of Monte Carlo and dynamic programming approaches. |
 | TRPO | Trust Region Policy Optimization | A policy gradient RL algorithm constraining each parameter update to stay within a trust region, ensuring stable and monotonically improving policy optimization. |
+
+## Optimization & Training
+
+| Acronym | Full Name | Definition |
+|---------|-----------|------------|
+| ADA | AdaBoosted Decision Trees | Using AdaBoost to improve performance in decision trees. |
+| AdaBoost | Adaptive Boosting | A statistical classification meta-algorithm that can be used in conjunction with many other types of learning algorithms to improve performance. |
+| AdR | AdaBoostRegressor | Using AdaBoost to improve performance in regression. |
+| AIWPSO | Adaptive Inertia Weight Particle Swarm Optimization | An optimization algorithm using an individual search ability (ISA) to indicate whether each particle lacks global exploration or local exploitation abilities in each dimension. |
+| BFGS | Broyden-Fletcher-Goldfarb-Shanno | A quasi-Newton optimization algorithm; used in second-order influence function computation as an alternative to conjugate gradient for small-scale settings. |
+| BP | BackPropagation | A widely used algorithm for training feedforward neural networks by propagating errors backward through the network. |
+| BPTT | Backpropagation Through Time | A gradient-based technique for training certain types of recurrent neural networks (e.g., LSTMs) by unrolling the network through time steps. |
+| CE | Cross-Entropy | A common loss function used in classification tasks, measuring the difference between predicted probability distributions and the true distribution. |
+| CG | Conjugate Gradient | An iterative algorithm for solving linear systems; the standard method for approximating inverse Hessian-vector products in influence function computation without forming the full Hessian. |
+| DAAF | Data Augmentation and Auxiliary Feature | A technique possibly involving using auxiliary features alongside data augmentation to improve model training. |
+| DE | Differential Evolution | A metaheuristic optimization algorithm belonging to the family of evolutionary algorithms, used for finding global optima, particularly in continuous spaces. |
+| EK-FAC | Eigenvalue-corrected Kronecker-Factored Approximate Curvature | A second-order optimization approximation used to compute scalable influence function estimates by approximating the inverse Hessian using a Kronecker product structure with eigenvalue correction. |
+| FIM | Fisher Information Matrix | A matrix capturing the curvature of the log-likelihood function with respect to model parameters; used to construct tractable inverse Hessian approximations in influence function computation. |
+| GA | Genetic Algorithm | A metaheuristic optimization algorithm inspired by natural selection, using concepts like mutation, crossover, and selection to evolve solutions. |
+| GA | Gradient Ascent | An optimization technique that maximizes rather than minimizes an objective; used in some machine unlearning methods to increase loss on forget-set examples. |
+| GD | Gradient Descent | An optimization algorithm used to minimize some function by iteratively moving in the direction of steepest descent as defined by the negative of the gradient. |
+| GGN | Gauss-Newton Hessian | An approximation to the Hessian of the training loss that is guaranteed positive semi-definite; commonly used as an alternative to the full Hessian in influence function approximations. |
+| IHVP | Inverse Hessian-Vector Product | The core computational primitive in influence function estimation; approximated using conjugate gradient, LiSSA, or Kronecker-factored methods to avoid full Hessian inversion. |
+| LiSSA | Linear time Stochastic Second-order Algorithm | An iterative algorithm for approximating inverse Hessian-vector products; standard computational method for scalable influence function estimation. |
+| LoRA | Low-Rank Adaptation | A parameter-efficient fine-tuning method that approximates weight updates as low-rank matrix products; relevant to attribution under fine-tuning because LoRA modifies only a subset of effective parameters. |
+| PEFT | Parameter-Efficient Fine-Tuning | A family of methods for adapting pre-trained models using a small number of additional parameters; includes LoRA, prefix tuning, and adapter layers. |
+| SBO | Structured Bayesian optimization | A Bayesian optimization approach that exploits known structural properties of the objective (e.g., decomposability or constraints) to improve search efficiency. |
+| SCH | Stochastic convex hull | A probabilistic or randomized method for computing or approximating the convex hull of a point set, used in optimization and geometry-based machine learning. |
+| SGD | Stochastic Gradient Descent | An optimization algorithm updating model parameters using gradients estimated from a single example or small mini-batch per step, enabling efficient large-scale learning. |
+| SGLD | Stochastic Gradient Langevin Dynamics | A sampling algorithm combining SGD with Langevin noise; used in Bayesian influence function variants and approximate posterior sampling for attribution uncertainty. |
+| SMBO | Sequential Model-Based Optimization | A hyperparameter optimization strategy that fits a probabilistic surrogate model of the objective and uses it to select the most promising configurations to evaluate. |
+| STDA | Style Transfer Data Augmentation | A method using style transfer to augment dataset. |
+| TDA | Targeted Data Augmentation | A data augmentation strategy concentrating augmentation effort on underrepresented or hard-to-classify examples to address class imbalance or improve targeted robustness. |
+| TDA | Training Data Attribution | The broader problem class of determining which training examples are responsible for specific model behaviors; synonymous with data attribution (DA) in this research. |
+| XGBoost | eXtreme Gradient Boosting | An efficient, regularized gradient boosting implementation known for speed, scalability, and strong performance on structured and tabular data tasks. |
