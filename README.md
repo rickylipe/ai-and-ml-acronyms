@@ -273,3 +273,71 @@ Browse by category below, or use your browser's search (`Ctrl+F` / `Cmd+F`) to j
 | TDA | Targeted Data Augmentation | A data augmentation strategy concentrating augmentation effort on underrepresented or hard-to-classify examples to address class imbalance or improve targeted robustness. |
 | TDA | Training Data Attribution | The broader problem class of determining which training examples are responsible for specific model behaviors; synonymous with data attribution (DA) in this research. |
 | XGBoost | eXtreme Gradient Boosting | An efficient, regularized gradient boosting implementation known for speed, scalability, and strong performance on structured and tabular data tasks. |
+
+## Statistical & Classical ML Methods
+
+| Acronym | Full Name | Definition |
+|---------|-----------|------------|
+| ACE | Alternating conditional expectation (ACE) algorithm | An algorithm to find the optimal transformations between the response variable and predictor variables in regression analysis. |
+| BDT | Boosted Decision Tree | An ensemble learning method combining multiple decision trees, typically using boosting algorithms like AdaBoost or Gradient Boosting. |
+| BN | Bayesian Network | A probabilistic graphical model that represents a set of variables and their conditional dependencies via a directed acyclic graph (DAG). |
+| BPMF | Bayesian Probabilistic Matrix Factorization | A probabilistic approach to matrix factorization, often used in recommender systems, incorporating Bayesian inference. |
+| BRR | Bayesian Ridge Regression | A regression technique that incorporates Bayesian methods with Ridge Regression (L2 regularization). |
+| CART | Classification And Regression Tree | An algorithm used to build decision trees for both classification and regression tasks by recursively partitioning the data space. |
+| CMMs | Conditional Markov Model | A graphical model for sequence labeling that combines features of hidden Markov models (HMMs) and maximum entropy (MaxEnt) models. Also known as maximum-entropy Markov model (MEMM). |
+| CRFs | Conditional Random Fields | A class of statistical modeling methods often used for structured prediction tasks like sequence labeling (e.g., in NLP), modeling conditional probabilities. |
+| DBSCAN | Density-Based Spatial Clustering of Applications with Noise | A density-based clustering algorithm that groups together points closely packed together, marking outliers as noise. |
+| DT | Decision Tree | A supervised learning model using a tree-like structure of decisions and their possible consequences to classify or regress data. |
+| EM | Expectation maximization | An iterative method for finding maximum likelihood or MAP estimates of parameters in statistical models with latent (unobserved) variables. |
+| EM | Exact Match | An evaluation metric that scores a prediction correct only if it exactly matches the reference string; used for question-answering attribution evaluation. |
+| EMD | Entropy Minimization Discretization | A method for discretizing continuous features by finding split points that minimize the class information entropy within the resulting intervals. |
+| EXT | Extremely Randomized Trees | An ensemble learning method similar to Random Forests, but introduces more randomness in selecting node splits (both attribute and split point). |
+| FCM | Fuzzy C-Means | A clustering algorithm allowing data points to belong to multiple clusters with varying degrees of membership (fuzziness). |
+| GAM | Generalized Additive Model | A regression model where the output variable depends linearly on unknown smooth functions of predictor variables, allowing for non-linear relationships. |
+| GAM | Global Attribution Mapping | An explainability method, often used with CNNs, to identify which input regions (e.g., pixels in an image) contribute most significantly to a specific output class. |
+| GAMLSS | Generalized Additive Models for Location, Scale and Shape | An extension of GAMs allowing not just the mean (location) but also other distribution parameters (like scale/variance and shape/skewness) to be modeled with additive predictors. |
+| GBRCN | Gradient-Boosting Random Convolutional Network | A model likely combining gradient boosting techniques with randomly initialized convolutional features, possibly for time-series or image analysis. |
+| GMM | Gaussian mixture model | A probabilistic model that assumes all the data points are generated from a mixture of a finite number of Gaussian distributions with unknown parameters. |
+| GPR | Gaussian Process Regression | A non-parametric, Bayesian approach to regression where the model learns a distribution over functions, providing uncertainty estimates along with predictions. |
+| HCA | Hierarchical Clustering Analysis | A method of cluster analysis which seeks to build a hierarchy of clusters, either agglomerative (bottom-up) or divisive (top-down). |
+| HDP | Hierarchical Dirichlet process | A non-parametric Bayesian approach for modeling grouped data, often used in topic modeling to allow for an infinite number of topics shared across groups. |
+| hLDA | Hierarchical Latent Dirichlet allocation | An extension of LDA that organizes topics into a hierarchy, allowing documents to be associated with paths of topics at different levels of granularity. |
+| HMM | Hidden Markov Model | A statistical Markov model in which the system being modeled is assumed to be a Markov process with unobserved (hidden) states, commonly used for sequential data like speech or NLP. |
+| ID3 | Iterative Dichotomiser 3 | An early algorithm used to generate a decision tree from a dataset, using information gain to select the best attribute at each step. |
+| KDE | Kernel Density Estimation | A non-parametric way to estimate the probability density function of a random variable by placing kernels (usually Gaussian) over each data point. |
+| k-NN | k-Nearest Neighbor | A non-parametric, instance-based learning algorithm where classification or regression is based on the majority vote or average of the 'k' nearest neighbors in the feature space. |
+| kNN | k-Nearest Neighbours | A non-parametric supervised learning method used for classification and regression. (Synonym for k-NN) |
+| KNN | K-Nearest Neighbors | A non-parametric retrieval method; adapted in datamodel-based attribution to identify training examples with similar gradient features to a target output. |
+| KRR | Kernel Ridge Regression | A combination of Ridge Regression (L2-regularized linear regression) with the kernel trick, allowing it to learn non-linear functions in high-dimensional spaces. |
+| LDADE | Latent Dirichlet Allocation Differential Evolution | Likely a hybrid approach combining LDA for topic modeling with Differential Evolution, possibly for optimizing LDA parameters or using topics within the DE process. |
+| LightGBM | Light Gradient-Boosting Machine | Gradient boosting framework that uses tree based learning algorithms, originally developed by Microsoft. Known for efficiency and speed. |
+| LVQ | Learning Vector Quantization | A prototype-based supervised classification algorithm, related to Self-Organizing Maps (SOM), that uses competitive learning to move prototypes towards or away from training instances based on class labels. |
+| MAP | Maximum A Posteriori (MAP) Estimation | A method for estimating unknown parameters in Bayesian statistics, finding the mode (peak) of the posterior distribution, incorporating prior knowledge. |
+| MARS | Multivariate Adaptive Regression Spline | Non-parametric regression technique, extends linear models. Note that the name is trademarked, open source implementations are often called "EARTH". |
+| MART | Multiple Additive Regression Tree | Another name for Gradient Boosted Decision Trees (GBDT), particularly associated with Friedman's original work, emphasizing the additive nature of the tree ensemble. |
+| MaxEnt | Maximum Entropy | Entropy a scientific concept as well as a measurable physical property that is most commonly associated with a state of disorderrandomnessor uncertainty. |
+| MCMC | Markov Chain Monte Carlo | A class of algorithms for sampling from a probability distribution by constructing a Markov chain that has the desired distribution |
+| MLE | Maximum Likelihood Estimation | A statistical method for estimating model parameters by finding values that maximize the probability of the observed training data under the assumed model. |
+| NB | Na ̈ıve Bayes | A probabilistic classifier applying Bayes' theorem with a strong feature independence assumption, widely used for text classification and spam filtering. |
+| NBKE | Na ̈ıve Bayes with Kernel Estimation | An extension of Naïve Bayes that uses kernel density estimation instead of parametric distributions for continuous features, providing greater modeling flexibility. |
+| NCC | Nearest Class Center | A classification method assigning examples to the closest class centroid; used in machine unlearning evaluation. |
+| OLR | Ordinary Linear Regression | A standard linear regression model estimating the linear relationship between a dependent variable and one or more predictors via least squares minimization. |
+| OLS | Ordinary Least Squares | A method for fitting a linear regression model by minimizing the sum of squared differences between observed and model-predicted values. |
+| PACO | Poisson Additive Co-Clustering | A co-clustering model that uses a Poisson distribution with additive block structure to simultaneously cluster both rows and columns of a count data matrix. |
+| PMF | Probabilistic Matrix Factorization | A collaborative filtering method that factorizes a user-item rating matrix into low-dimensional latent user and item factor matrices using probabilistic modeling. |
+| PYTM | Pitman | A non-parametric Bayesian topic model using the Pitman-Yor process to better capture the power-law frequency distribution of words compared to standard LDA. |
+| REPTree | Reduced Error Pruning Tree | A decision tree learner that uses information gain for split selection and reduced-error pruning to build a compact tree that is less prone to overfitting. |
+| RF | Random Forest | An ensemble method training many decision trees on random data and feature subsets, aggregating their predictions for improved accuracy and robustness. |
+| RIPPER | Repeated Incremental Pruning to Produce Error Reduction | A rule induction algorithm that generates a compact set of classification rules by iteratively growing and pruning rules to minimize validation error. |
+| RLFM | Regression based latent factors | A recommendation model that uses regression on observed user and item features to inform or initialize latent factor matrices in a collaborative filtering framework. |
+| RR | Ridge Regression | A regularized linear regression technique adding an L2 penalty on coefficient magnitudes to reduce overfitting and stabilize estimates when features are correlated. |
+| SBM | Stochastic block model | A generative random graph model assigning nodes to latent communities and modeling edge probabilities by community membership pairs, used for community detection. |
+| SGBoost | Stochastic Gradient Boosting | A gradient boosting variant that trains each successive tree on a random subsample of the training data, introducing stochasticity to reduce variance and improve generalization. |
+| SHLLE | Supervised Hessian Locally Linear Embedding | A supervised extension of Hessian LLE incorporating class label information during embedding to better preserve discriminative structure in the low-dimensional space. |
+| SSVM | Smooth support vector machine | An SVM variant using smooth approximations of the hinge loss to enable unconstrained gradient-based optimization and faster convergence via Newton-type methods. |
+| SVD | Singing Voice Detection | A music information retrieval task detecting the presence of singing voice within audio segments, typically framed as binary frame-level classification. |
+| SVD | Singular Value Decomposition | A matrix factorization decomposing any matrix into U, Σ, and Vᵀ components, widely used for dimensionality reduction, noise filtering, and recommendation systems. |
+| SVM | Support Vector Machine | Supervised learning models with associated learning algorithms that analyze data for classification and regression analysis. |
+| SVR | Support Vector Regression | Supervised learning models with associated learning algorithms that analyze data for regression analysis. |
+| THAID | THeta Automatic Interaction Detection | An early decision tree algorithm that automatically detects interactions among predictor variables by maximizing a discrimination measure at each recursive partition step. |
+| t-SNE | t-distributed stochastic neighbor embedding | A nonlinear dimensionality reduction method for visualization that models pairwise similarities using a heavy-tailed t-distribution in low-dimensional space to prevent crowding. |
