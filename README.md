@@ -341,3 +341,27 @@ Browse by category below, or use your browser's search (`Ctrl+F` / `Cmd+F`) to j
 | SVR | Support Vector Regression | Supervised learning models with associated learning algorithms that analyze data for regression analysis. |
 | THAID | THeta Automatic Interaction Detection | An early decision tree algorithm that automatically detects interactions among predictor variables by maximizing a discrimination measure at each recursive partition step. |
 | t-SNE | t-distributed stochastic neighbor embedding | A nonlinear dimensionality reduction method for visualization that models pairwise similarities using a heavy-tailed t-distribution in low-dimensional space to prevent crowding. |
+
+## Explainability & Interpretability
+
+| Acronym | Full Name | Definition |
+|---------|-----------|------------|
+| AM | Activation Maximization | A method to visualize neural networks and aims to maximize the activation of certain neurons. |
+| CAV | Concept Activation Vectors | Explainability method that provides an interpretation of a neural net's internal state in terms of human-friendly concepts. |
+| CBI | Counterfactual Bias Insertion | A technique potentially used in fairness research to test model robustness against specific biases by inserting counterfactual examples. |
+| DeepLIFT | Deep Learning Important FeaTures | An explainability method for deep learning models that attributes prediction differences to input feature differences based on a reference input. |
+| DTD | Deep Taylor Decomposition | An explainability technique that decomposes the prediction of a neural network based on Taylor series expansion, related to Layer-wise Relevance Propagation (LRP). |
+| FA | Feature Attribution | Methods that assign importance scores to input features to explain model predictions; distinct from training data attribution but related in interpretability research. |
+| GALE | Global Aggregations of Local Explanations | An explainability technique that aims to derive global insights about a model's behavior by aggregating multiple local explanations (e.g., SHAP, LIME) from individual predictions. |
+| GEBI | Global Explanation for Bias Identification | Explainability method that aggregates local explanations (of single prediction) into a global explanation with the goal of finding biases and systematic errors in decision making. |
+| IDR | Input dependence rate | A metric possibly measuring how much a model's output or internal state depends on its input features, potentially used in explainability or sensitivity analysis. |
+| IIR | Input independence rate | A metric likely measuring the degree to which a model's output is independent of its input features, possibly related to robustness or fairness evaluation. |
+| INFD | Explanation Infidelity | A metric used in XAI to measure how poorly an explanation (e.g., feature attributions) reflects the actual behavior of the model when inputs are perturbed. |
+| LFA | Local Function Approximation | A class of interpretability methods that approximate model behavior locally using simpler surrogate functions. |
+| LIME | Local Interpretable Model-agnostic Explanations | An XAI technique that explains individual predictions of any black-box classifier by learning a simpler, interpretable model locally around the prediction. |
+| LRP | Layer-wise Relevance Propagation | An XAI technique for deep neural networks that decomposes the output prediction backward through the layers to assign relevance scores to input features. |
+| SHAP | SHapley Additive exPlanation | An XAI framework grounded in cooperative game theory that assigns each feature a Shapley value representing its fair marginal contribution to a model prediction. |
+| SpRay | Spectral Relevance Analysis | Global explainability method using spectral clustering and local explanations (LRP). |
+| SV | Shapley Value | A cooperative game-theoretic quantity assigning each player a fair contribution to the collective outcome; applied to training data attribution as Data Shapley to measure each example's marginal contribution. |
+| TINT | Tree-Interpreter | An explainability method for tree ensembles that decomposes individual predictions into additive feature contributions by tracing each sample through the decision trees. |
+| XAI | Explainable Artificial Intelligence | A set of processes and methods to make machine learning algorithms and its results more interpretable. |
