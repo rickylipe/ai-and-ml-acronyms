@@ -505,3 +505,17 @@ Browse by category below, or use your browser's search (`Ctrl+F` / `Cmd+F`) to j
 | SVS | Singing Voice Separation | A source separation task focused on isolating the singing voice from accompanying instruments in a mixed music recording. |
 | VAD | Voice Activity Detection | A signal processing technique that detects the presence or absence of human speech in audio, commonly used as a preprocessing step in ASR and communication systems. |
 | WPE | Weighted Prediction Error | A microphone array processing method for dereverberation that estimates and subtracts late reverberation from the received signal using weighted linear prediction. |
+
+## Sign Language & Accessibility
+
+| Acronym | Full Name | Definition |
+|---------|-----------|------------|
+| CSLR | Continuous Sign Language Recognition | Sign language recognition and understanding (continuous using not only single words but whole phrases) getting knowledge about the meaning of signs essential for SLT. |
+| Gloss2Text | A task of transforming raw glosses into meaningful sentences. | In sign language processing, the task of converting a sequence of sign glosses (word-level representations) into a grammatically correct spoken language sentence. |
+| HamNoSys | Hamburg Sign Language Notation System | An annotation system that describes sign language symbols. |
+| Sign2Gloss | A one to one translation from the single sign to the single gloss. | The task of mapping individual signs from a sign language video to their corresponding written gloss representations without full sentence-level grammatical translation. |
+| Sign2(Gloss+Text) | Sign to Gloss and Text | A two-step process requires joint learning of sign language recognition and translation. |
+| Sign2Text | A task of full translation from the sign language into the spoken one | grammar and syntax are included. |
+| SLRT | Sign Language Recognition Transformer | an encoder transformer model trained to predict sign gloss sequences it takes spatial embeddings and learns spatio-temporal representations. |
+| SLT | Sign Language Translation | A full translation of signs to a spoken language. |
+| SLTT | Sign Language Translation Transformer | an autoregressive transformer decoder model trained on output from SLRT to predict one word at a time to generate the corresponding spoken language sentence. |
