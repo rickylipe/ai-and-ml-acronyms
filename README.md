@@ -550,3 +550,22 @@ Browse by category below, or use your browser's search (`Ctrl+F` / `Cmd+F`) to j
 | LSH | Locality-Sensitive Hashing | A randomized hashing technique for approximate nearest-neighbor search; used in scalable attribution retrieval methods. |
 | VDB | Vector Database | A database optimized for storing and querying dense vector embeddings; used in retrieval-augmented attribution pipelines. |
 | VR | Virtual Reality | An immersive, computer-generated simulation of a 3D environment that users interact with in real time using specialized hardware like headsets and motion controllers. |
+
+## Organizations, Standards & Conferences
+
+| Acronym | Full Name | Definition |
+|---------|-----------|------------|
+| DARPA | Defense Advanced Research Projects Agency | US government research agency; funder of several data provenance and AI attribution research programs. |
+| IARPA | Intelligence Advanced Research Projects Activity | US government research agency sponsoring work in data provenance and AI transparency. |
+| ICLR | International Conference on Learning Representations | Top machine learning venue; primary publication target for training data attribution and membership inference research. |
+| ICML | International Conference on Machine Learning | Top machine learning venue; major publication target for influence function and attribution research. |
+| IPTC | International Press Telecommunications Council | A standards body for news and media metadata; publishes specifications for embedding attribution and provenance metadata in media assets. |
+| ISO | International Organization for Standardization | International standards body; publisher of the XMP standard and other provenance-related specifications. |
+| LNCS | Lecture Notes in Computer Science | Springer publication series for computer science conference proceedings. |
+| NCMEC | National Center for Missing and Exploited Children | US nonprofit maintaining the CSAM hash database; relevant to mandatory content filtering in training pipelines. |
+| NeurIPS | Neural Information Processing Systems | Top machine learning conference; primary publication venue for influence functions, membership inference, and privacy-preserving ML. |
+| NIST | National Institute of Standards and Technology | US federal agency publishing AI standards including the AI Risk Management Framework; relevant to compliance framing for attribution systems. |
+| NSERC | Natural Sciences and Engineering Research Council | Canadian federal research funding agency. |
+| NSF | National Science Foundation | US federal research funding agency; funds foundational work in privacy, security, and machine learning. |
+| SMPTE | Society of Motion Picture and Television Engineers | Standards body publishing specifications for professional media production; relevant to provenance standards for video and broadcast content. |
+| USENIX | USENIX Association | A computer systems research organization; USENIX Security is a primary venue for membership inference and privacy attack research. |
