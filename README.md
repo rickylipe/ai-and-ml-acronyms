@@ -462,3 +462,25 @@ Browse by category below, or use your browser's search (`Ctrl+F` / `Cmd+F`) to j
 | SSI | Self-Sovereign Identity | A decentralized identity model where individuals control their own credentials; relevant to user-controlled data provenance systems. |
 | TDM | Text and Data Mining | A legal exception in EU and other jurisdictions permitting automated processing of copyrighted text for research; relevant to whether training data collection was lawful and what attribution obligations follow. |
 | VARA | Visual Artists Rights Act | US legislation protecting moral rights of visual artists; relevant to whether AI-generated images derived from training data implicate attribution obligations to original artists. |
+
+## Cryptographic Methods
+
+| Acronym | Full Name | Definition |
+|---------|-----------|------------|
+| C2PA | Coalition for Content Provenance and Authenticity | An industry standards body developing open technical specifications for cryptographic content provenance, including the C2PA Specification governing signed content manifests. |
+| DSS | Digital Signature Standard | NIST cryptographic standard for digital signatures; used in content provenance systems to authenticate asset origin. |
+| EZKL | EZEKIEL | An open-source toolkit for compiling neural network inference into zero-knowledge proof circuits; primary implementation tool for ZKP-based model verification. |
+| HE | Homomorphic Encryption | A class of encryption schemes supporting computation on ciphertext; applicable to privacy-safe attribution when queries must be processed without exposing their content. |
+| IPA | Inner-Product Argument | A cryptographic proof primitive used within zero-knowledge systems to verify polynomial evaluations; a building block for ZK-SNARK and related proof systems. |
+| IVC | Incrementally Verifiable Computation | A proof paradigm supporting verification of iterative computations step-by-step; applicable to verifying multi-step training or inference processes in ZKP-based attribution. |
+| KZG | Kate-Zaverucha-Goldberg Commitment | A polynomial commitment scheme used in ZK-SNARK constructions; enables compact and efficiently verifiable commitments to polynomials over elliptic curve groups. |
+| LSB | Least Significant Bit | The lowest-order bit in a binary number; used in steganographic data watermarking approaches for embedding traceable signals. |
+| MPC | Multi-Party Computation | A cryptographic protocol enabling multiple parties to jointly compute a function over their private inputs without revealing those inputs; applicable to distributed attribution without centralizing training data. |
+| PCS | Polynomial Commitment Scheme | A cryptographic primitive allowing a prover to commit to a polynomial and later prove evaluations without revealing the polynomial; foundational to ZK-SNARK and ZK-STARK constructions. |
+| PKI | Public Key Infrastructure | A system for managing digital certificates and public-key encryption; used in content provenance systems such as C2PA to authenticate content origin and integrity. |
+| PLONK | Permutations over Lagrange-bases for Oecumenical Non-interactive Arguments of Knowledge | A universal ZK-SNARK construction supporting efficient proving for arbitrary arithmetic circuits with a universal trusted setup. |
+| SRS | Structured Reference String | A public parameter set generated during a trusted setup ceremony for ZK-SNARK constructions; the SRS must be generated honestly to ensure soundness of the proof system. |
+| ZKML | Zero-Knowledge Machine Learning | The subfield combining zero-knowledge proof systems with machine learning to enable verifiable, privacy-preserving model inference and training; primary cryptographic approach for privacy-safe attribution. |
+| ZKP | Zero-Knowledge Proof | A cryptographic protocol in which one party proves knowledge of a secret to another without revealing the secret itself; the foundational primitive for privacy-safe attribution verification. |
+| ZK-SNARK | Zero-Knowledge Succinct Non-Interactive Argument of Knowledge | A cryptographic proof system enabling a prover to demonstrate knowledge of a witness satisfying a relation without revealing the witness; applicable to verifying model training and inference without exposing training data or weights. |
+| ZK-STARK | Zero-Knowledge Scalable Transparent Argument of Knowledge | A ZKP system that requires no trusted setup and offers post-quantum security; computationally more expensive than ZK-SNARK but eliminates trusted setup assumptions. |
