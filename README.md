@@ -432,3 +432,33 @@ Browse by category below, or use your browser's search (`Ctrl+F` / `Cmd+F`) to j
 | ZKPoT | Zero-Knowledge Proof of Training | A cryptographic proof certifying that a model was trained on a committed dataset following a specified procedure, without revealing the training data or intermediate weights. |
 | ZKPoU | Zero-Knowledge Proof of Unlearning | Certifies a model update correctly removed influence of a specific training example or forget set, satisfying right-to-be-forgotten requirements at a cryptographic level without revealing the original training data. |
 | ZK-SNM | Zero-Knowledge Semantic Non-Membership | A protocol for proving that a specific semantic concept or data record did not appear in a model's training set, without revealing the training set or any auxiliary information about it. |
+
+## Privacy, Security & Compliance
+
+| Acronym | Full Name | Definition |
+|---------|-----------|------------|
+| AMI | Approximate Membership Inference | A relaxed membership inference formulation that estimates training set membership with probabilistic rather than exact guarantees. |
+| CCPA | California Consumer Privacy Act | California state privacy law enacted 2018 granting consumers rights over personal data collection and use; relevant to training data governance and deletion obligations. |
+| CFR | Code of Federal Regulations | The codification of rules published by US federal agencies; relevant to compliance obligations in regulated sectors such as healthcare and finance. |
+| CJEU | Court of Justice of the European Union | The supreme judicial body of the EU; relevant to interpretation of GDPR provisions applicable to AI training data and right-to-erasure obligations. |
+| CPPA | Colorado Privacy Act | Colorado state privacy law enacted 2021 including provisions for data subject rights applicable to AI systems processing personal data. |
+| CSAM | Child Sexual Abuse Material | A category of illegal content with specific implications for training data governance and mandatory deletion obligations. |
+| DP | Differential Privacy | A mathematical privacy framework providing formal guarantees that the removal or addition of a single training record changes model output distributions by at most a bounded factor. |
+| DP-ICL | Differentially Private In-Context Learning | A privacy-preserving inference technique that applies differential privacy mechanisms to in-context learning to prevent leakage of context examples. |
+| DP-SGD | Differentially Private Stochastic Gradient Descent | The standard algorithm for training neural networks under differential privacy; adds calibrated Gaussian noise to per-example gradients before averaging. |
+| DSM | Digital Single Market Directive | EU legislation governing digital markets including provisions on text and data mining exceptions relevant to training data legality. |
+| EC | European Commission | The executive branch of the EU responsible for proposing legislation including the AI Act and enforcing GDPR. |
+| FL | Federated Learning | A distributed training paradigm where model updates are computed locally and aggregated centrally without sharing raw training data; relevant to privacy-safe attribution in decentralized settings. |
+| GDPR | General Data Protection Regulation | EU regulation governing personal data processing enacted 2016, effective 2018; establishes rights to erasure and data portability with direct implications for training data attribution and machine unlearning. |
+| IP | Intellectual Property | Legal protections covering creative works and inventions; training data attribution intersects IP law when model outputs reproduce copyrighted training content. |
+| IRB | Institutional Review Board | An ethics oversight body for research involving human subjects; relevant to privacy protections around training data containing personal information. |
+| LDP | Local Differential Privacy | A privacy model where each user randomizes their own data before sharing; applicable to federated attribution scenarios. |
+| MIA | Membership Inference Attack | An adversarial query that determines whether a specific example was included in a model's training set; used both to evaluate privacy risk and as a building block for attribution verification. |
+| PII | Personally Identifiable Information | Information that can be used to identify a specific individual; training data attribution must be designed to avoid surfacing PII present in training corpora. |
+| PIPEDA | Personal Information Protection and Electronic Documents Act | Canadian federal privacy legislation governing collection and use of personal information; includes data deletion and accountability provisions relevant to training data governance. |
+| RDP | Renyi Differential Privacy | A relaxation of differential privacy defined in terms of Renyi divergence; provides tighter composition bounds than pure DP and is the standard accounting method for DP-SGD. |
+| RMF | NIST AI Risk Management Framework | A voluntary framework published by NIST for managing AI-related risks including transparency and accountability requirements. |
+| SNM | Semantic Non-Membership | A privacy notion capturing whether a model's outputs reveal that a specific semantic concept was absent from training; complement to membership inference. |
+| SSI | Self-Sovereign Identity | A decentralized identity model where individuals control their own credentials; relevant to user-controlled data provenance systems. |
+| TDM | Text and Data Mining | A legal exception in EU and other jurisdictions permitting automated processing of copyrighted text for research; relevant to whether training data collection was lawful and what attribution obligations follow. |
+| VARA | Visual Artists Rights Act | US legislation protecting moral rights of visual artists; relevant to whether AI-generated images derived from training data implicate attribution obligations to original artists. |
