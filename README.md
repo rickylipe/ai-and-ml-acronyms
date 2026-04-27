@@ -365,3 +365,31 @@ Browse by category below, or use your browser's search (`Ctrl+F` / `Cmd+F`) to j
 | SV | Shapley Value | A cooperative game-theoretic quantity assigning each player a fair contribution to the collective outcome; applied to training data attribution as Data Shapley to measure each example's marginal contribution. |
 | TINT | Tree-Interpreter | An explainability method for tree ensembles that decomposes individual predictions into additive feature contributions by tracing each sample through the decision trees. |
 | XAI | Explainable Artificial Intelligence | A set of processes and methods to make machine learning algorithms and its results more interpretable. |
+
+## Evaluation Metrics & Benchmarks
+
+| Acronym | Full Name | Definition |
+|---------|-----------|------------|
+| ACC | ACCuracy | Accuracy is a metric for evaluating classification models. |
+| AUC | Area Under the (ROC) Curve | Probability of confidence in a model to accurately predict positive outcomes for actual positive instances |
+| AUC | Area Under the Curve | A threshold-independent summary statistic for binary classifier performance; used to evaluate membership inference attack accuracy. |
+| AUPRC | Area Under the Precision-Recall Curve | A metric for evaluating binary classifiers under class imbalance; used to evaluate membership inference attack quality when non-member examples vastly outnumber members. |
+| AUROC | Area Under the Receiver Operating Characteristic Curve | A standard evaluation metric for ranking quality of membership inference attacks across all decision thresholds. |
+| DR | Detection Rate | Represents the sensitivity or detection rate of a model (synonym for True Positive Rate or Recall). |
+| EER | Equal Error Rate | The point where false acceptance rate equals false rejection rate in a binary classifier; used to evaluate membership inference attack calibration. |
+| F1 Score | Harmonic Precision-Recall Mean | The harmonic mean of precision and recall, used as a performance metric for classification tasks, especially with imbalanced datasets. |
+| FNR | False Negative Rate | Proportion of actual positives predicted as negatives (1 - Recall/TPR). |
+| FPR | False Positive Rate | Proportion of actual negatives predicted as positives. |
+| MAE | Mean Absolute Error | Average of the absolute error between the actual and predicted values. |
+| MAPE | Mean Absolute Prediction Error | Percentage of the error between the actual and predicted values (often expressed as a percentage). |
+| MRR | Mean Reciprocal Rank | An information retrieval evaluation metric computed as the average of the reciprocal ranks of the first correct result across a set of queries. |
+| MSE | Mean Squared Error | Average of the squares of the error between the actual and predicted values |
+| NRMSE | Normalized RMSE | Cross-entropy Metric based on the logistic function that measures the error between the actual and predicted values. |
+| PPL | Perplexity | A measure of how well a language model predicts a sequence of tokens; used to evaluate whether machine unlearning has degraded retained model capabilities. |
+| RMSE | Root MSE | Squared root of MSE |
+| ROC | Received Operating Characteristic | Curve that plots TPR versus FPR at different parameter settings |
+| ROC | Receiver Operating Characteristic | A curve plotting true positive rate against false positive rate across thresholds; used to evaluate membership inference attack performance. |
+| SER | Sentence Error Rate | A sequence-level error metric measuring the fraction of utterances or sentences where at least one prediction error occurs. |
+| TNR | True Negative Rate | Proportion of actual negatives that are correctly predicted |
+| TPR | True Positive Rate | Proportion of actual positives that are correctly predicted |
+| WER | Word Error Rate | metric to measure performance used in NLP solutions e.g. in automatic speech recognition (ASR). |
