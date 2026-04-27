@@ -222,3 +222,19 @@ Browse by category below, or use your browser's search (`Ctrl+F` / `Cmd+F`) to j
 | TGAN | Temporal Generative Adversarial Network | A GAN architecture designed to generate realistic temporal sequences such as video or time-series data by modeling both spatial content and temporal dynamics. |
 | VAE | Variational AutoEncoder | An artificial neural network architecture belonging to the families of probabilistic graphical models and variational Bayesian methods. |
 | VQ-VAE | Vector Quantized Variational Autoencoders | A VAE variant using a discrete, vector-quantized latent space instead of a continuous one, enabling high-fidelity image, audio, and video generation. |
+
+## Reinforcement Learning
+
+| Acronym | Full Name | Definition |
+|---------|-----------|------------|
+| CALA | Continuous Action-set Learning Automata | A type of reinforcement learning agent operating in environments with continuous (non-discrete) action spaces. |
+| DPO | Direct Preference Optimization | A simplified alternative to RLHF for aligning language models with human preferences using a binary cross-entropy objective over preference pairs. |
+| DQN | Deep Q-Network | A reinforcement learning algorithm that uses a deep neural network to approximate the Q-value (action-value) function. |
+| FALA | Finite Action-set Learning Automata | A type of reinforcement learning agent operating in environments with a finite number of discrete actions. |
+| MDP | Markov Decision Process | A mathematical framework for sequential decision-making using states, actions, transition probabilities, and rewards; the theoretical foundation of reinforcement learning. |
+| POMDP | Partially Observable Markov Decision Process | An MDP extension for partially observable environments where the agent maintains a probability distribution (belief state) over possible hidden states to guide decisions. |
+| RL | Reinforcement Learning | A machine learning paradigm where an agent learns optimal behavior through trial-and-error interactions with an environment, guided by reward signals. |
+| RLHF | Reinforcement learning from human feedback | A fine-tuning technique that trains AI models using human preference comparisons to learn a reward signal, then applies RL to align behavior with human values. |
+| SARSA | State-Action-Reward-State-Action | An on-policy TD reinforcement learning algorithm that updates Q-values using the action actually taken by the agent's policy rather than the greedy optimal action. |
+| TD | Temporal Difference | A family of RL algorithms learning value functions by bootstrapping from subsequent estimates, combining the strengths of Monte Carlo and dynamic programming approaches. |
+| TRPO | Trust Region Policy Optimization | A policy gradient RL algorithm constraining each parameter update to stay within a trust region, ensuring stable and monotonically improving policy optimization. |
