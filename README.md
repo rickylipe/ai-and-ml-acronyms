@@ -519,3 +519,17 @@ Browse by category below, or use your browser's search (`Ctrl+F` / `Cmd+F`) to j
 | SLRT | Sign Language Recognition Transformer | an encoder transformer model trained to predict sign gloss sequences it takes spatial embeddings and learns spatio-temporal representations. |
 | SLT | Sign Language Translation | A full translation of signs to a spoken language. |
 | SLTT | Sign Language Translation Transformer | an autoregressive transformer decoder model trained on output from SLRT to predict one word at a time to generate the corresponding spoken language sentence. |
+
+## Datasets
+
+| Acronym | Full Name | Definition |
+|---------|-----------|------------|
+| BBH | Big Bench Hard | A challenging subset of the BIG-Bench benchmark targeting tasks where LLMs perform near chance level; used to evaluate model utility preservation after machine unlearning. |
+| CIFAR-10 | Canadian Institute for Advanced Research 10-class dataset | A standard image classification benchmark with 60,000 images across 10 categories; widely used for evaluating training data attribution methods. |
+| IMDB | Internet Movie Database sentiment dataset | A standard binary sentiment classification benchmark; used in membership inference and attribution evaluations on text data. |
+| ISIC | International Skin Imaging Collaboration | An academia-industry partnership focused on creating digital skin imaging standards and datasets for melanoma research, often used in computer vision challenges. |
+| LAION | Large-scale Artificial Intelligence Open Network | An open dataset of image-text pairs scraped from the web; extensively used for training generative image models and subject to attribution and copyright disputes. |
+| MMLU | Massive Multitask Language Understanding | A benchmark covering 57 academic subjects used to evaluate language model knowledge; also used to assess knowledge retention after machine unlearning. |
+| MNIST | Modified National Institute of Standards and Technology database | A handwritten digit classification benchmark; commonly used to demonstrate and evaluate attribution methods. |
+| PILE | The Pile | A 825 GiB diverse English text dataset assembled for LLM pre-training; used in membership inference and attribution experiments on language models. |
+| WMDP | Weapons of Mass Destruction Proxy | A benchmark dataset designed to evaluate machine unlearning of hazardous knowledge in language models, using proxy tasks measuring model retention of WMD-related information. |
