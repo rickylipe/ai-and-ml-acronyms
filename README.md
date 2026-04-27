@@ -209,3 +209,16 @@ Browse by category below, or use your browser's search (`Ctrl+F` / `Cmd+F`) to j
 | VGG | Visual Geometry Group | Popular deep convolutional model designed for classification. |
 | ViT | Vision Transformer | A transformer architecture applied to image patches; used as an evaluation backbone for training data attribution methods in computer vision. |
 | YOLO | You Only Look Once | Fast object detection algorithm. |
+
+## Generative Models
+
+| Acronym | Full Name | Definition |
+|---------|-----------|------------|
+| DCGAN | Deep Convolutional Generative Adversarial Network | A type of GAN that uses convolutional and convolutional-transpose layers in its discriminator and generator, respectively, primarily for image generation. |
+| GAN | Generative Adversarial Network | A deep-learning-based generative model using "indirect" training through the discriminator another neural network that is able to tell how much an input is "realistic" which itself is also being updated dynamically. |
+| MAF | Masked Autoregressive Flows | A type of normalizing flow model for density estimation that uses masked autoregressive transformations (like MADE) to ensure invertibility and efficient computation. |
+| NF | Normalizing Flow | A class of generative models that transform a simple base distribution into a complex target distribution via a sequence of invertible, differentiable mappings. |
+| SGVB | Stochastic Gradient Variational Bayes | A variational inference training method using the reparameterization trick to enable low-variance gradient estimation through stochastic latent variables in VAEs. |
+| TGAN | Temporal Generative Adversarial Network | A GAN architecture designed to generate realistic temporal sequences such as video or time-series data by modeling both spatial content and temporal dynamics. |
+| VAE | Variational AutoEncoder | An artificial neural network architecture belonging to the families of probabilistic graphical models and variational Bayesian methods. |
+| VQ-VAE | Vector Quantized Variational Autoencoders | A VAE variant using a discrete, vector-quantized latent space instead of a continuous one, enabling high-fidelity image, audio, and video generation. |
