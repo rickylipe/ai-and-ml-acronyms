@@ -63,3 +63,81 @@ Browse by category below, or use your browser's search (`Ctrl+F` / `Cmd+F`) to j
 | SBSE | Search-based software engineering | The application of metaheuristic search techniques such as genetic algorithms and simulated annealing to automate and optimize software engineering tasks. |
 | STL | Selt-Taught Learning | A semi-supervised approach leveraging large unlabeled datasets for unsupervised feature pre-training before fine-tuning on a downstream supervised task with limited labels. |
 | WMA | Weighted Majority Algorithm | An online learning algorithm combining expert predictions with multiplicatively updated weights, reducing influence of experts with higher historical error rates. |
+
+## Deep Learning & Neural Network Architectures
+
+| Acronym | Full Name | Definition |
+|---------|-----------|------------|
+| AE | AutoEncoder | A type of artificial neural network used to learn efficient codings of unlabeled data (unsupervised learning) |
+| ANN | Artificial Neural Network | A collection of connected computational units or nodes called neurons arranged in multiple computational layers. |
+| ARNN | Anticipation Recurrent Neural Network | A type of RNN designed to predict future inputs or states in sequential data. |
+| BILSTM | Bidirectional Long Short-Term Memory | A bidirectional recurrent neural network architecture utilizing LSTM units (see LSTM). |
+| BNN | Bayesian Neural Network | A type of artificial neural network built by introducing random variations into the network either by giving the network's artificial neurons stochastic transfer functions or by giving them stochastic weights |
+| BRNN | Bidirectional Recurrent Neural Network | An RNN variant that processes sequence data in both forward and backward directions, capturing context from past and future elements. |
+| CAE | Contractive AutoEncoder | An autoencoder variant that adds a penalty term to the loss function to encourage robustness of the learned representation to small input variations. |
+| CDBN | Convolutional Deep Belief Networks | A type of deep artificial neural network composed of multiple layers of convolutional restricted Boltzmann machines stacked together. |
+| CEC | Constant Error Carousel | A key component within LSTM units that allows error signals to propagate back through time without vanishing or exploding gradient issues. |
+| CLNN | ConditionaL Neural Networks | Neural networks whose output or internal processing is dependent on an auxiliary conditional input. |
+| CMAC | Cerebellar Model Articulation Controller | A type of neural network inspired by the mammalian cerebellum, often used for function approximation and control tasks, using associative memory principles. |
+| CNN | Convolutional Neural Network | A class of artificial neural network (ANN), typically using convolutional layers, most commonly applied to analyze visual imagery. |
+| ConvNet | Convolutional Neural Network | A class of artificial neural network (ANN), typically using convolutional layers, most commonly applied to analyze visual imagery. (Synonym for CNN) |
+| CRBM | Conditional Restricted Boltzmann Machine | An extension of the Restricted Boltzmann Machine where the visible and/or hidden units are conditioned on additional input variables. |
+| CRNN | Convolutional Recurrent Neural Network | A hybrid neural network architecture combining Convolutional Neural Networks (CNNs) and Recurrent Neural Networks (RNNs), typically for spatio-temporal data. |
+| CTC | Connectionist Temporal Classification | A loss function used for training sequence models (like RNNs) on tasks where the alignment between input and output sequences is variable or unknown (e.g., speech). |
+| DAE | Denoising AutoEncoder or Deep AutoEncoder | An autoencoder trained to reconstruct clean input from corrupted versions (Denoising AE), often with multiple hidden layers (Deep AE). |
+| DBM | Deep Boltzmann Machine | An undirected probabilistic graphical model (like RBM) with multiple layers of hidden variables, allowing for more complex representations. |
+| DBN | Deep Belief Network | A generative graphical model composed of multiple layers of latent variables ("beliefs"), typically trained greedily layer-by-layer using RBMs. |
+| DCMDN | Deep Convolutional Mixture Density Network | Combines CNNs with Mixture Density Networks to model complex conditional probability distributions, often for image generation or regression tasks with uncertainty. |
+| DeconvNet | DeConvolutional Neural Network | A neural network architecture often utilizing transposed convolutions (sometimes called deconvolutions) for tasks like image segmentation or visualization of CNN features. |
+| DL | Deep Learning | A subfield of machine learning based on artificial neural networks with multiple layers (deep architectures) enabling learning of complex patterns. |
+| DNN | Deep Neural Network | An artificial neural network (ANN) with multiple hidden layers between the input and output layers. |
+| DSN | Deep Stacking Network | A deep learning architecture based on stacking blocks of simple modules (like MLPs) trained sequentially, layer by layer. |
+| ELM | Extreme Learning Machine | A feedforward neural network training algorithm where hidden node parameters are randomly assigned and only output weights are learned analytically, often very fast. |
+| ELU | Exponential Linear Unit | An activation function similar to ReLU but with negative values, which can help push mean activations closer to zero, potentially speeding up learning. |
+| FC | Fully-Connected | Layers where all the inputs from one layer are connected to every activation unit of the next layer. |
+| FC-CNN | Fully Convolutional Convolutional Neural Network | A neural network architecture consisting entirely of convolutional layers (and pooling/upsampling), without any fully-connected layers. |
+| FC-LSTM | Fully Connected Long Short-Term Memory | An LSTM network where connections between time steps or layers might involve fully connected transformations, combining sequential and dense processing. |
+| FCN | Fully Convolutional Network | A neural network that only performs convolution (and subsampling or upsampling) operations, often used for semantic segmentation. (Similar to FC-CNN) |
+| FNN | Feedforward Neural Network | An artificial neural network where connections between nodes do not form a cycle; information moves only forward from input to output layers. |
+| GAP | Global Average Pooling | A pooling operation often used in CNNs before the final classification layer, reducing each feature map to a single value by averaging, which helps reduce overfitting and enforces correspondence between feature maps and categories. |
+| GFNN | Gradient Frequency Neural Networks | Neural networks possibly designed to better learn or represent high-frequency components in data, potentially by manipulating gradients during training. |
+| GNN | Graph Neural Network | A class of neural networks operating on graph-structured data; relevant to attribution methods that model relationships between training examples. |
+| HAN | Hierarchical Attention Network | A neural network architecture, typically used for document classification, employing attention mechanisms at both word and sentence levels to capture important information hierarchically. |
+| HNN | Hopfield Neural Network | A form of recurrent artificial neural network popularized by John Hopfield, serving as content-addressable ("associative") memory systems with binary threshold nodes. |
+| KAN | Kolmogorov-Arnold Networks | Ref. https://arxiv.org/abs/2404.19756v1 - A novel neural network architecture inspired by the Kolmogorov-Arnold representation theorem, potentially offering better interpretability and scaling properties compared to MLPs by using learnable activation functions on edges instead of fixed ones on nodes. |
+| LSTM | Long Short-Term Memory | A recurrent neural network can process not only single data points (such as images) but also entire sequences of data (such as speech or video). |
+| MADE | Masked Autoencoder for Distribution Estimation | An autoregressive model based on autoencoders, using carefully constructed masks to ensure that reconstructions respect autoregressive constraints, allowing for tractable density estimation. |
+| MCLNN | Masked ConditionaL Neural Networks | Conditional neural networks where masking techniques might be applied, possibly to control information flow or enforce specific dependencies based on the condition. |
+| MDN | Mixture Density Network | A neural network that outputs parameters of a mixture distribution (e.g., Gaussian mixture), enabling prediction of multi-modal probability distributions over outputs. |
+| MDRNN | Multidimensional recurrent neural network | An extension of RNNs that processes data with multiple spatial dimensions by applying recurrent connections along each axis simultaneously. |
+| MLP | Multi-Layer Perceptron | A fully connected class of feedforward artificial neural network |
+| MSDAE | Modified Sparse Denoising Autoencoder | A denoising autoencoder variant incorporating sparsity regularization on hidden representations to encourage more compact and informative feature learning. |
+| NAS | Neural Architecture Search | A technique for automating the design of artificial neural networks. |
+| NC | Neural Collapse | A geometric phenomenon in the final layer of trained classifiers where class representations collapse to a simplex ETF; relevant to understanding attribution under representation sharing. |
+| NN | Neural Network | A computational model loosely inspired by the brain, composed of interconnected layers of nodes (neurons) that learn by adjusting weighted connections from data. |
+| NPE | Neural Physical Engine | A neural network trained to simulate physical dynamics, enabling physics-aware prediction and reasoning without relying on explicit physics equations. |
+| NTK | Neural Tangent Kernel | A kernel function describing the behavior of infinitely wide neural networks; used as a theoretical foundation for gradient-based influence function approximations. |
+| NTM | Neural Turing Machine | A neural network augmented with a differentiable external memory and attention-based read/write heads, enabling learning of complex algorithmic input-output mappings. |
+| PCA | Principal Component Analysis | The process of computing the principal components and using them to perform a change of basis on the data sometimes using only the first few principal components and ignoring the rest. |
+| PNN | Probabilistic Neural Network | A feedforward network based on kernel density estimation that computes class membership probabilities at output, used primarily for pattern classification. |
+| PReLU | Parametric Rectified Linear Unit-Yor Topic Modeling | An activation function extending ReLU by treating the negative-side slope as a learnable parameter, improving performance in deep networks. |
+| RandNN | Random Neural Network | A neural network where weights are randomly initialized and kept fixed (not trained), used in reservoir computing and random feature approximation methods. |
+| RBF | Radial Basis Function | A function whose value depends only on the distance from a fixed center point, used as a kernel in SVMs and as activations in RBF neural networks. |
+| RBFNN | Radial Basis Function Neural Network | A three-layer neural network using radial basis functions as hidden activations, commonly applied to function approximation, classification, and time-series modeling. |
+| RBM | Restricted Boltzmann Machine | An undirected probabilistic neural network with visible and hidden layers and symmetric connections, used as building blocks in deep belief networks and generative models. |
+| ReLU | Rectified Linear Unit | An activation function that allow fast and effective training of deep neural architectures on large and complex datasets. |
+| ResNet | Residual Network | A deep convolutional network architecture using skip connections; standard image classification backbone for attribution evaluations. |
+| RIM | Recurrent Interence Machines | A model using recurrent networks to iteratively refine latent variable estimates, commonly applied to inverse problems in imaging and signal processing. |
+| RNN | Recurrent Neural Network | A neural network for sequential data that maintains a hidden state updated at each time step via recurrent connections, enabling memory of prior inputs. |
+| RNNLM | Recurrent Neural Network Language Model (RNNLM) | A language model using an RNN to estimate the conditional probability of each word given all preceding words, capturing long-range sequential dependencies. |
+| RTRL | Real-Time Recurrent Learning | An online algorithm for training RNNs that computes exact gradients with respect to all parameters in real time as the network processes each input step. |
+| SAE | Stacked AE | A deep feature learning architecture built by stacking autoencoders, each pre-trained to encode the output of the previous layer in an unsupervised manner. |
+| SDAE | Stacked DAE | A deep architecture formed by stacking denoising autoencoders, each trained to reconstruct clean inputs from corrupted versions to learn robust hierarchical representations. |
+| seq2seq | Sequence to Sequence Learning | Desribes training approach to convert sequences from one domain (e.g. sentences in English) to sequences in another domain (e.g. the same sentences translated to French). |
+| SLP | Single-Layer Perceptron | The simplest feedforward neural network with a single layer of trainable weights mapping inputs directly to outputs, limited to linearly separable problems. |
+| SOM | Self-Organizing Map | A self-organizing map (SOM) or self-organizing feature map (SOFM) is an unsupervised machine learning technique used to produce a low-dimensional (typically two-dimensional) representation of a higher dimensional data set while preserving the topological structure of the data |
+| SSL | Self-Supervised Learning | A learning paradigm where models are trained on pretext tasks derived from unlabeled data's inherent structure to learn transferable feature representations. |
+| TLFN | Time-Lagged Feedforward Neural Network | A feedforward network augmented with time-delayed input copies as additional features, capturing temporal dependencies without requiring recurrent connections. |
+| V-Net | Volumetric Convolutional neural network | 3D image segmentation based on a volumetric fully convolutional neural network |
+| VPNN | Vector Product Neural Network | A neural network using vector product operations (e.g., cross products or Hadamard products) instead of conventional dot products to model feature interactions. |
+| WRN | Wide Residual Network | A variant of ResNet with wider layers; used as an evaluation backbone for training data attribution on image tasks. |
