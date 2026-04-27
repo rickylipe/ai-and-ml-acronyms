@@ -533,3 +533,20 @@ Browse by category below, or use your browser's search (`Ctrl+F` / `Cmd+F`) to j
 | MNIST | Modified National Institute of Standards and Technology database | A handwritten digit classification benchmark; commonly used to demonstrate and evaluate attribution methods. |
 | PILE | The Pile | A 825 GiB diverse English text dataset assembled for LLM pre-training; used in membership inference and attribution experiments on language models. |
 | WMDP | Weapons of Mass Destruction Proxy | A benchmark dataset designed to evaluate machine unlearning of hazardous knowledge in language models, using proxy tasks measuring model retention of WMD-related information. |
+
+## Hardware, Infrastructure & Systems
+
+| Acronym | Full Name | Definition |
+|---------|-----------|------------|
+| API | Application Programming Interface | A defined interface through which software components interact; in this context, the external query interface through which model outputs are retrieved for inference-time attribution. |
+| AR | Augmented Reality | An interactive experience of a real-world environment where the objects that reside in the real world are enhanced by computer-generated perceptual information sometimes across multiple sensory modalities. |
+| BQML | Big Query Machine Learning | Google Cloud service enabling creation and execution of ML models in BigQuery using standard SQL queries. |
+| ETL Pipeline | Extract Transform Load Pipeline | A data integration process involving extracting data from sources, transforming it into a proper format, and loading it into a target system (like a data warehouse). |
+| FAISS | Facebook AI Similarity Search | A high-performance library for approximate nearest-neighbor search over dense vector embeddings; used in retrieval-augmented attribution pipelines. |
+| FLOP | Floating Point Operations | A unit of measure of the amount of mathematical computations (like additions, multiplications) often used to describe the complexity of a neural network model. |
+| FLOPS | Floating Point Operations Per Second | A unit of measure of computer performance, indicating how many floating-point operations a processor can perform per second. |
+| IOT | Internet of Things | Networked embedded devices; relevant to provenance and attribution in distributed data collection scenarios. |
+| JAX | Just After eXecution | A Google research framework for high-performance numerical computing and automatic differentiation; used for large-scale influence function computation. |
+| LSH | Locality-Sensitive Hashing | A randomized hashing technique for approximate nearest-neighbor search; used in scalable attribution retrieval methods. |
+| VDB | Vector Database | A database optimized for storing and querying dense vector embeddings; used in retrieval-augmented attribution pipelines. |
+| VR | Virtual Reality | An immersive, computer-generated simulation of a 3D environment that users interact with in real time using specialized hardware like headsets and motion controllers. |
