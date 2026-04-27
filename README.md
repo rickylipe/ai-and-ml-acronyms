@@ -177,3 +177,35 @@ Browse by category below, or use your browser's search (`Ctrl+F` / `Cmd+F`) to j
 | T5 | Text-To-Text Transfer Transformer | Transformer based language model that uses a text-to-text approach. |
 | ULMFiT | Universal Language Model Fine-Tuning | A transfer learning method for NLP that pre-trains a language model on a large corpus, then uses discriminative fine-tuning and gradual layer unfreezing to adapt it to target tasks. |
 | WFST | Weighted finite-state transducer (WFST) | A finite automaton with weighted transitions mapping input symbol sequences to output sequences, widely used in speech recognition and NLP for sequence transduction. |
+
+## Computer Vision
+
+| Acronym | Full Name | Definition |
+|---------|-----------|------------|
+| BiFPN | Bidirectional Feature Pyramid Network | An efficient multi-scale feature fusion method used in object detection, allowing bidirectional (top-down and bottom-up) information flow. |
+| CV | Coefficient of Variation | Intra-cluster similarity to measure the accuracy of unsupervised classification models based on clusters |
+| CV | Computer Vision | A field of AI enabling computers to "see" and interpret information from digital images or videos. |
+| CV | Cross Validation | Resampling method for training, validation and testing a model across different iterations on portions of the full data set. |
+| CVPR | Computer Vision and Pattern Recognition | The premier annual computer vision conference; primary publication venue for visual attribution and watermarking methods. |
+| ECCV | European Conference on Computer Vision | A major biennial computer vision conference; relevant publication venue for attribution and provenance methods. |
+| FPN | Feature Pyramid Network | A neural network component, common in object detection, that builds multi-scale feature representations with rich semantics at all levels via lateral connections. |
+| FWIoU | Frequency Weighted Intersection over Union | Metric in segmentation/object detection tasks. Weighted average of IoU's over classes, where weights depend on class frequency. |
+| GLCM | Gray Level Co-occurrence Matrix | A statistical method for examining texture that considers the spatial relationship of pixels, used for feature extraction in image analysis. |
+| GradCAM | GRADient-weighted Class Activation Mapping | A visualization technique for CNNs that uses the gradients flowing into the final convolutional layer to produce a coarse localization map highlighting important regions in the input image for predicting the concept. |
+| ICCV | International Conference on Computer Vision | Major biennial computer vision conference; publication venue for visual watermarking and attribution methods. |
+| IoU | Jaccard index (intersection over union) | Metric in segmentation/object detection tasks. Ratio of areas of intersection and union of two (segmentation) boxes, corresponding to e.g. prediction and label. |
+| MIoU | Mean Intersection over Union | Metric in segmentation/object detection tasks. Mean of IoU's over classes. |
+| MPA | Mean Pixel Accuracy | Metric in segmentation/object detection tasks. Average ratio of correctly classified pixels by class. |
+| NCII | Non-Consensual Intimate Images | Images distributed without subject consent; a category of harmful training content subject to mandatory removal obligations. |
+| NMS | Non Maximum Suppression | A technique used in Object Detection for removing redundand overlapping bounding boxes |
+| NST | Neural Style Transfer | A method that uses of deep neural networks for transfering style. |
+| PA | Pixel Accuracy | Metric in segmentation/object detection tasks. Ratio of correctly classified over total number of pixels. |
+| RANSAC | RANdom SAmple Consensus | A robust iterative algorithm that estimates model parameters from data containing large proportions of outliers by fitting models to random minimal subsets. |
+| RGB | Red Green Blue color model | An additive color model used for display of images |
+| RICNN | Rotation Invariant Convolutional Neural Network | A CNN variant designed to produce consistent feature representations regardless of input rotation, achieved through architectural or training-based strategies. |
+| ROI | Region Of Interest | A defined subset of an image or dataset designated for focused processing or analysis, widely used in object detection, medical imaging, and feature extraction. |
+| SSD | Single-Shot Detector | A type of object detector that consists of a single stage. Some examples are YOLO RetinaNet and EfficientDet. |
+| ST | Style Transfer | An algorithm that allows to tranfer properties of one object to another (i.e. transfer painitning style to a photography). |
+| VGG | Visual Geometry Group | Popular deep convolutional model designed for classification. |
+| ViT | Vision Transformer | A transformer architecture applied to image patches; used as an evaluation backbone for training data attribution methods in computer vision. |
+| YOLO | You Only Look Once | Fast object detection algorithm. |
