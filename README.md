@@ -484,3 +484,24 @@ Browse by category below, or use your browser's search (`Ctrl+F` / `Cmd+F`) to j
 | ZKP | Zero-Knowledge Proof | A cryptographic protocol in which one party proves knowledge of a secret to another without revealing the secret itself; the foundational primitive for privacy-safe attribution verification. |
 | ZK-SNARK | Zero-Knowledge Succinct Non-Interactive Argument of Knowledge | A cryptographic proof system enabling a prover to demonstrate knowledge of a witness satisfying a relation without revealing the witness; applicable to verifying model training and inference without exposing training data or weights. |
 | ZK-STARK | Zero-Knowledge Scalable Transparent Argument of Knowledge | A ZKP system that requires no trusted setup and offers post-quantum security; computationally more expensive than ZK-SNARK but eliminates trusted setup assumptions. |
+
+## Audio, Music & Speech Processing
+
+| Acronym | Full Name | Definition |
+|---------|-----------|------------|
+| ADT | Automatic Drum Transcription | Methods that aim to detect drum events in polyphonic music |
+| AMT | Automatic Music Transcription | Computational algorithms that convert acoustic music signals into some form of music notation |
+| DWT | Discrete Wavelet Transform | A mathematical transform used for signal processing and feature extraction, decomposing signals into different frequency components at multiple scales. |
+| FFT | Fast Fourier transform | An efficient algorithm to compute the Discrete Fourier Transform (DFT) and its inverse, widely used in signal processing and feature engineering. |
+| HHDS | HipHop Dataset | Likely refers to a specific dataset focused on Hip Hop music, used for tasks like music information retrieval (MIR), genre classification, or beat tracking. |
+| ICASSP | International Conference on Acoustics, Speech, and Signal Processing | IEEE conference relevant to audio watermarking and signal-based provenance methods. |
+| MER | Music Emotion Recognition | The task of automatically identifying the emotion or mood conveyed by a music piece using audio features and machine learning models. |
+| MFAAN | Multi-Feature Audio Attribution Network | A neural network architecture for audio content attribution. |
+| MLM | Music Language Models | Language models adapted to learn and generate sequential musical data such as notes, chords, and rhythms for music generation or analysis tasks. |
+| MRS | Music Recommender System | A system that automatically recommends music to users based on listening history, preferences, or behavioral similarity to other users. |
+| MSR | Music Style Recognition | The task of automatically classifying the musical style or genre of an audio recording using extracted features and a trained classifier. |
+| NNMODFF | Neural Network based Multi-Onset Detection Function Fusion | An approach that uses neural networks to fuse multiple onset detection functions into a single more robust signal for music event detection. |
+| ODF | Onset Detection Function | A function derived from an audio signal that highlights time locations where musical events such as note onsets and transients are likely to occur. |
+| SVS | Singing Voice Separation | A source separation task focused on isolating the singing voice from accompanying instruments in a mixed music recording. |
+| VAD | Voice Activity Detection | A signal processing technique that detects the presence or absence of human speech in audio, commonly used as a preprocessing step in ASR and communication systems. |
+| WPE | Weighted Prediction Error | A microphone array processing method for dereverberation that estimates and subtracts late reverberation from the received signal using weighted linear prediction. |
