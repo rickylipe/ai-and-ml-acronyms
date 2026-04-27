@@ -393,3 +393,42 @@ Browse by category below, or use your browser's search (`Ctrl+F` / `Cmd+F`) to j
 | TNR | True Negative Rate | Proportion of actual negatives that are correctly predicted |
 | TPR | True Positive Rate | Proportion of actual positives that are correctly predicted |
 | WER | Word Error Rate | metric to measure performance used in NLP solutions e.g. in automatic speech recognition (ASR). |
+
+## Data Attribution, Provenance & Unlearning
+
+| Acronym | Full Name | Definition |
+|---------|-----------|------------|
+| ASTRA | Attribution via Star Graphs | A graph-based training data attribution method that models relationships between training examples and model outputs through star-shaped dependency structures. |
+| BIF | Bayesian Influence Functions | An extension of classical influence functions incorporating prior distributions over model parameters; improves calibration of attribution scores under model uncertainty. |
+| CAI | Component Attribution Index | A metric for measuring the contribution of individual model components to specific output behaviors. |
+| CMF | Causal Model Fine-tuning | A machine unlearning technique that fine-tunes model weights using causal intervention objectives to remove influence of specific training data. |
+| DA | Data Attribution | The task of identifying which training examples causally influenced a specific model output; the core technical problem addressed by this research. |
+| DATE-LM | Data Attribution Through Evaluation for Language Models | An evaluation framework for benchmarking training data attribution methods on language model outputs. |
+| EXIF | Exchangeable Image File Format | A standard for embedding metadata in image files; used to store provenance and attribution information in media assets. |
+| GAGDR | Gradient Ascent with Over-Unlearn Detection and Recovery | A machine unlearning variant that monitors for over-unlearning during gradient ascent and applies a corrective signal to prevent excessive capability degradation. |
+| GAKLR | Gradient Ascent with Knowledge Loss Recovery | A machine unlearning method combining gradient ascent on forget-set examples with a knowledge distillation objective to preserve retained capabilities. |
+| GSS | Gradient Similarity Score | A training data attribution metric measuring cosine similarity between a training example's gradient and the gradient of the target output. |
+| ICU | In-Context Unlearning | A machine unlearning approach that suppresses model recall of target training data using in-context demonstrations rather than weight updates. |
+| IF | Influence Functions | A classical statistical technique adapted by Koh and Liang (2017) to approximate the effect of removing a single training example on model predictions without retraining; foundational method for inference-time attribution. |
+| IF-LOO | Influence Function Leave-One-Out | A variant of influence function estimation that uses leave-one-out cross-validation to compute counterfactual training data impact scores. |
+| ISCC | International Standard Content Code | A content-derived identifier standard for digital media; enables fingerprint-based provenance tracking across content transformations. |
+| LDS | Linear Datamodeling Score | A metric introduced by Park et al. for evaluating training data attribution methods by measuring the correlation between predicted and actual model behavior changes under data removal. |
+| LOO | Leave-One-Out | A cross-validation strategy and attribution scoring approach that measures the change in model performance or output when a single training example is removed from the full training set. |
+| MCS | Model contrast score | A metric in XAI that quantifies the contrast between an interpretable surrogate model's decision boundary and that of the original black-box model. |
+| MDA | Mechanistic Data Attribution | An attribution framework that traces model behavior to training data through intermediate mechanistic components such as circuits or attention heads rather than direct gradient-based methods. |
+| MIMIR | MIMIR Toolkit | A Python toolkit providing unified implementations of membership inference attacks including LiRA, Min-K%, and reference model baselines for standardized evaluation |
+| MU | Machine Unlearning | The set of techniques for removing the influence of specific training data from an already-trained model without full retraining; directly linked to GDPR right-to-erasure compliance. |
+| MUSE | Machine Unlearning Six-Way Evaluation | A benchmark framework for evaluating machine unlearning methods across six dimensions including forget quality, retain quality, and model utility. |
+| PBRF | Proximal Bregman Response Function | A machine unlearning technique that formulates data removal as a Bregman projection problem, enabling certified unlearning with controlled distance from the original model. |
+| RWKU | Real-World Knowledge Unlearning | A benchmark dataset for evaluating machine unlearning of factual knowledge in language models using real-world entities and relationships. |
+| SCRUB | Selective Classifier Retraining for Unlearning Biases | A machine unlearning method using a student-teacher distillation objective where the student learns from the teacher on retain-set examples while maximizing loss on forget-set examples. |
+| SEAL | Secure Evidence Attribution Label | A framework for embedding cryptographically verifiable attribution information into digital content at creation time. |
+| SISA | Sharded, Isolated, Sliced, and Aggregated | A training framework for machine unlearning that partitions training data into shards and slices, enabling efficient retraining of affected shards when data removal is requested. |
+| TOFU | Task of Fictitious Unlearning | A benchmark for evaluating machine unlearning in language models using synthetically generated author biographies to enable controlled measurement of forget and retain set behavior. |
+| TRAK | Tracing with the Randomly-projected After Kernel | A scalable training data attribution method that projects gradient features into a low-dimensional space using random projections and uses a kernel regression estimator to attribute outputs to training examples. |
+| UL | Unlearning | Shorthand for machine unlearning; refers to the process of removing the influence of specific training examples from a trained model. |
+| XMP | Extensible Metadata Platform | An ISO standard for embedding metadata within digital files; used in content provenance systems to attach provenance records to media assets. |
+| ZKPoI | Zero-Knowledge Proof of Inference | Certifies a model produced a specific output from committed weights at inference time without revealing those weights; the inference-side complement to ZKPoT that closes the training-to-output verifiability gap. |
+| ZKPoT | Zero-Knowledge Proof of Training | A cryptographic proof certifying that a model was trained on a committed dataset following a specified procedure, without revealing the training data or intermediate weights. |
+| ZKPoU | Zero-Knowledge Proof of Unlearning | Certifies a model update correctly removed influence of a specific training example or forget set, satisfying right-to-be-forgotten requirements at a cryptographic level without revealing the original training data. |
+| ZK-SNM | Zero-Knowledge Semantic Non-Membership | A protocol for proving that a specific semantic concept or data record did not appear in a model's training set, without revealing the training set or any auxiliary information about it. |
